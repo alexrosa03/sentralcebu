@@ -1,24 +1,13 @@
 import React from 'react';
-import { Box } from '@mui/material';
-import Navbar from './Navbar.jsx'
 
-import cousin from '../images/cousin.jpg'
+import Navbar from './Navbar.jsx'
+import Home from './Home.jsx';
 
 function Index() {
     return (
         <>
             <Navbar/>
-            <Box sx={{
-                height: '100vh',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}>
-                <img style={{
-                    height: '300px',
-                    width: '300px',
-                }}src={cousin}></img>
-            </Box>
+            <Home/>
         </>
     )
 }

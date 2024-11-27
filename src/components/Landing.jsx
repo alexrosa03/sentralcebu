@@ -23,7 +23,7 @@ function Landing() {
                 }}>
                 <img 
                     src={sentralLoading}
-                    alt="Your Image"
+                    alt="Sentral Loading"
                     style={{
                         borderRadius: '50%',
                         width: '100px',
